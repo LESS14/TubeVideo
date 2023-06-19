@@ -1,0 +1,38 @@
+.body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);  
+}
+
+:root {
+    --bg-color: #161616;
+    --txt-color: #fff;
+    --section-padding: 5rem;
+}
+
+.ml-10 {
+    margin-left: 39rem;
+}
+
+input {
+    text-align: left;
+    cursor: pointer;
+}
+
+input:focus {
+    border: #fff dotted 2px;
+    cursor: none;
+}
+
+.form-control-file {
+    background-color: #2b2a2a;
+}
+
+.form-control {
+    background-color: #2b2a2a;
+    border-color: #808080 solid 5px;
+}
+
+.form-control:focus, option:visited {
+    background-color: #202020;
+    border: none;
+}
